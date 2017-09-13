@@ -20,8 +20,13 @@ $this->get('one-to-many-insert', 'OneToManyController@OneToManyInsert');
 $this->get('one-to-many-insert-two', 'OneToManyController@OneToManyInsertTwo');
 
 
-//One to Many Insert
+//One to Many trough
 $this->get('has-many-trough', 'OneToManyController@hasManyThrough');
+
+//Many to Many 
+$this->get('many-to-many', 'ManyToManyController@ManyToMany');
+//Many to Many Inverse
+$this->get('many-to-many-inverse', 'ManyToManyController@ManyToManyInverse');
 
 
 

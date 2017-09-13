@@ -112,9 +112,13 @@ class OneToManyController extends Controller
 
     	foreach ($cities as $city) {
 
-    		echo $city->name.", ";
+    		echo " {$city->name}, ";
 
     	}
+
+
+
+    		echo "<br>Total: {$city->count()} ";
   
     }
 
