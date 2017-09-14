@@ -27,6 +27,15 @@ $this->get('has-many-trough', 'OneToManyController@hasManyThrough');
 $this->get('many-to-many', 'ManyToManyController@ManyToMany');
 //Many to Many Inverse
 $this->get('many-to-many-inverse', 'ManyToManyController@ManyToManyInverse');
+//Many to Many Insert
+$this->get('many-to-many-insert', 'ManyToManyController@ManyToManyInsert');
+
+
+//Polymorphic
+$this->get('polymorphic', 'PolymorphicController@polymorphic');
+
+//Polymorphic polymorphicInsert
+$this->get('polymorphic-insert', 'PolymorphicController@polymorphicInsert');
 
 
 
